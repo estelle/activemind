@@ -1,8 +1,24 @@
 
 .footer-container {
     background: #f6f3ed;
-}
-.footer-container footer {
-    padding: 18px 10px 12px;
-
+	height: 40px;
+	background:#EBE9DF;
+	font: arial 12px;
+	footer {
+		li {
+			display: inline; 
+			margin-right: 10px;
+			line-height: 40px;
+		}
+		a {
+			color: $gold;
+			text-transform: uppercase;
+			border-right: 1px solid $light_grey;
+			padding-right: 10px;
+			text-decoration: none;
+		}
+		li:last-of-type a {
+			border-right: none;
+		}
+	}
 }

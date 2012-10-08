@@ -13,8 +13,12 @@
         float: left;
         width: 27%;
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 0 2%;
+        line-height: 71px;
         margin-bottom: 0;
+    }
+    .profile-links a {
+        width: 43%;
     }
 
     nav li:first-child a {

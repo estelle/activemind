@@ -119,8 +119,12 @@ body {
     float: left;
     width: 27%;
     margin: 0 1.7%;
-    padding: 25px 2%;
+    padding: 0 2%;
+    line-height: 71px;
     margin-bottom: 0; }
+
+  .profile-links a {
+    width: 43%; }
 
   nav li:first-child a {
     margin-left: 0; }
@@ -510,9 +514,6 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 .mll, .mhl, .mal {
   margin-left: 20px !important; }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
 .header-container {
   background: #3d3d3d url("../img/header-bg.gif") top left;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#464646), to(#313131));
@@ -532,17 +533,12 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 .title {
   color: white; }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
 nav ul {
   margin: 0;
   padding: 0; }
 
 nav a {
   display: block;
-  margin-bottom: 10px;
-  padding: 15px 0;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -587,10 +583,22 @@ header {
   left: 0px; }
 
 .footer-container {
-  background: #f6f3ed; }
-
-.footer-container footer {
-  padding: 18px 10px 12px; }
+  background: #f6f3ed;
+  height: 40px;
+  background: #EBE9DF;
+  font: arial 12px; }
+  .footer-container footer li {
+    display: inline;
+    margin-right: 10px;
+    line-height: 40px; }
+  .footer-container footer a {
+    color: #c7a912;
+    text-transform: uppercase;
+    border-right: 1px solid #999999;
+    padding-right: 10px;
+    text-decoration: none; }
+  .footer-container footer li:last-of-type a {
+    border-right: none; }
 
 /* ===============
     ALL: IE Fixes

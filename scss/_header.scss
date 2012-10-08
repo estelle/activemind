@@ -1,10 +1,7 @@
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
 .header-container {
     background: #3d3d3d url("../img/header-bg.gif") top left;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#464646), to(#313131));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, 
+        from(#464646), to(#313131));
     background-image: -webkit-gradient(#464646, #313131);
     background-image: -moz-gradient(#464646, #313131);
     background-image: -ms-gradient(#464646, #313131);
@@ -12,7 +9,6 @@
     background-image: gradient(to bottom, #464646, #313131);
     border-bottom: 1px solid #2a2a2a;
 }
-
 .main aside {
     border-top: 20px solid #1b2616;
 }
@@ -25,19 +21,13 @@
     color: white;
 }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
 
 nav ul {
     margin: 0;
     padding: 0;
 }
-
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
