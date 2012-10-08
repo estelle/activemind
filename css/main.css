@@ -17,7 +17,7 @@ textarea{ resize:vertical}
    ========================================================================== */
 
 body{    font:16px/26px Helvetica,Helvetica Neue,Arial}
-.wrapper{ width:960px;  margin:0}
+.wrapper{ width:960px;  margin:0;}
 
 /* ===================
     ALL: Orange Theme
@@ -25,7 +25,12 @@ body{    font:16px/26px Helvetica,Helvetica Neue,Arial}
 
 .header-container {
     background: #3d3d3d url("../img/header-bg.gif") top left;
-    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#464646), to(#313131));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#464646), to(#313131));
+    background-image: -webkit-gradient(#464646, #313131);
+    background-image: -moz-gradient(#464646, #313131);
+    background-image: -ms-gradient(#464646, #313131);
+    background-image: -o-gradient(#464646, #313131);
+    background-image: gradient(to bottom, #464646, #313131);
     border-bottom: 1px solid #2a2a2a;
 }
 
@@ -115,10 +120,8 @@ body {
 
 .header-container {
     height: 71px;
-    -webkit-box-shadow:0px 1px 6px 1px #333333;
-    -moz-box-shadow:0px 1px 6px 1px #333333;
-    -o-box-shadow:0px 1px 6px 1px #333333;
-    -ms-box-shadow:0px 1px 6px 1px #333333;
+    -webkit-box-shadow:0px 1px 6px 1px #333333; /* android and BB only */
+    -moz-box-shadow:0px 1px 6px 1px #333333; /* if we support FF3.6 only */
     box-shadow:0px 1px 6px 1px #333333;
     position: relative;
     z-index: 2;
