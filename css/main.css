@@ -26,14 +26,13 @@ body{    font:16px/26px Helvetica,Helvetica Neue,Arial}
 .header-container {
     background: #3d3d3d url("../img/header-bg.gif") top left;
     -webkit-gradient(linear, 0% 0%, 0% 100%, from(#464646), to(#313131));
+    border-bottom: 1px solid #2a2a2a;
 }
 
-.footer-container,
 .main aside {
     border-top: 20px solid #1b2616;
 }
 
-.footer-container,
 .main aside {
     background: #565a32;
 }
@@ -87,9 +86,12 @@ nav a:hover {
     padding: 0px 5% 10px;
 }
 
+.footer-container {
+    background: #f6f3ed;
+}
 .footer-container footer {
-    color: white;
-    padding: 20px 0;
+    padding: 18px 10px 12px;
+
 }
 
 /* ===============
@@ -112,7 +114,14 @@ body {
 }
 
 .header-container {
-    height: 70px;
+    height: 71px;
+    -webkit-box-shadow:0px 1px 6px 1px #333333;
+    -moz-box-shadow:0px 1px 6px 1px #333333;
+    -o-box-shadow:0px 1px 6px 1px #333333;
+    -ms-box-shadow:0px 1px 6px 1px #333333;
+    box-shadow:0px 1px 6px 1px #333333;
+    position: relative;
+    z-index: 2;
 }
 
 header {
