@@ -296,9 +296,6 @@ h6, .h6 {
   _margin-right: -3px; }
 
 /* mod */
-.mod {
-  margin: 10px; }
-
 .mod .inner {
   /*background: url(skin/transparent.png) repeat left top;*/ }
 
@@ -599,6 +596,29 @@ header {
     text-decoration: none; }
   .footer-container footer li:last-of-type a {
     border-right: none; }
+
+.mod {
+  border-radius: 3px;
+  background: #FFFFFF;
+  margin: 10px 0; }
+  .mod .head {
+    background: url(/module-header-background.png) repeat #999999;
+    border-radius: 3px 3px 0 0;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-family: 'Francois One', arial, sans-serif;
+    font-size: 18px;
+    color: #E6E6E6;
+    text-shadow: 0 -1px 0 #6b6b6b; }
+  .mod section {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc; }
+    .mod section img {
+      border-radius: 3px; }
+    .mod section:last-of-type {
+      border: none; }
 
 /* ===============
     ALL: IE Fixes
