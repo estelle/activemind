@@ -38,7 +38,7 @@
                         </li>
                         <li class="profile">
                             <a href="/profile">
-                                <img class="profile-img" src="profile-assets/IanPoulter.jpg"/>
+                                <img class="profile-img" src="img/IanPoulter.jpg"/>
                                 <span>Me</span>
                             </a>
                         </li>
@@ -50,31 +50,35 @@
         <div class="banner-container">
             <div class="banner wrapper clearfix">
                 <img src="courses/pebblebeach/course-shot-1.jpg" class="golf-course"/>
+                <ul id="hole-list" class="hide">
+                    <li class="template"><a></a></li>
+                </ul>
             </div>
         </div>
 
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article class="mod">
-                <div class="head">hello</div>
-                    <section class="media">
+                <h4>user data</h4>
+                <section id="user-stats">
+                    <ul>
+                        <li class="user-fullname"></li>
+                        <li class="golf-course"></li>
+                        <li class="score"></li>
+                        <li class="putts"></li>
+                        <li class="drive-acc"></li>
+                        <li class="gir"></li>
+                        <li class="scrambling"></li>
+                    </ul>
+                </section>
+
+                <h4 id="share-comment-count">comments</h4>
+                <article id="share-comment-mod" class="mod">
+                    <section id="share-comment-template" class="media hide">
                         <div class="img">
-                            <img src="data:image/jpeg;base64,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">
+                            <img class="avatar med" src="">
                         </div>
-                        <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie</p>
-                    </section>
-                    <section class="media">
-                        <div class="img">
-                            <img src="data:image/jpeg;base64,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">
-                        </div>
-                        <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie</p>
-                    </section>
-                    <section class="media">
-                        <div class="img">
-                            <img src="data:image/jpeg;base64,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">
-                        </div>
-                        <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie</p>
+                        <p class="comment"></p>
                     </section>
                 </article>
 
@@ -98,16 +102,17 @@
             </footer>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script-->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
 
+        <script src="share/testName/94-76931706.js"></script>
         <script src="js/main.js"></script>
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
+            // var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            // (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            // g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            // s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
     </body>
 </html>
