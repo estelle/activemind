@@ -232,7 +232,7 @@ a.show_hide_scorecard
 	position:absolute;
 	right:0;
 	bottom:0;
-	background-image: url("/images/game/show_hide_bullet.gif");
+	background-image: url("../img/show_hide_bullet.gif");
     background-position: 4px 4px;
     background-repeat: no-repeat;
     color: #979696;
@@ -310,7 +310,7 @@ a.show_hide_scorecard_show
 	padding: 21px 10px;
 	padding-right: 45px;
 	padding-left:10px;
-	background-image: url(/images/game/user_menu_bullet.gif);
+	background-image: url(../img/user_menu_bullet.gif);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
@@ -422,7 +422,7 @@ z-index: 100;
 	color:#d5d5d5;
 	height:340px;
 	overflow:hidden;
-	background-image: url(/images/game/blue_bg.jpg);
+	background-image: url(../img/blue_bg.jpg);
 	background-repeat: repeat-x;
 	background-position: 10px;
 	background-color:#7badd0;
@@ -488,7 +488,7 @@ color:#d5d5d5;
 }	
 a.green_btn
 {
-	background-image: url(/images/game/grreen_btn_bg.png);
+	background-image: url(../img/grreen_btn_bg.png);
 	background-repeat: no-repeat;
 	background-position: right center;
 	display: block;
@@ -511,7 +511,7 @@ margin-bottom:-380px;
 }
 .top_of_chart_withbg_width_wrapper
 {
-	background-image:url(/images/game/dashboardbg.jpg);
+	background-image:url(../img/dashboardbg.jpg);
 	background-repeat: no-repeat;
 	width:100%;
 	background-position:center -65px
@@ -538,7 +538,7 @@ margin-bottom:-380px;
 }
 .honeycomb_section_wrapper
 {
-	background-image: url(/images/game/arrowed_bg.png);
+	background-image: url(../img/arrowed_bg.png);
 	background-repeat: repeat-x;
 	background-position: top;
 	height:240px;
@@ -547,7 +547,7 @@ margin-bottom:-380px;
 }
 .arrowed_bg_light
 {
-	background-image: url(/images/game/arrowed_bg_light.png);
+	background-image: url(../img/arrowed_bg_light.png);
 }
 .honeycomb_section_wrapper_with_img
 {
@@ -605,7 +605,7 @@ margin-bottom:-380px;
 }
 .honeycomb_section_wrapper .arrow_green
 {
-	background-image: url(/images/game/green_arrow_up.png);
+	background-image: url(../img/green_arrow_up.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	width:70px;
@@ -615,7 +615,7 @@ margin-bottom:-380px;
 }
 .honeycomb_section_wrapper .arrow_red
 {
-	background-image: url(/images/game/red_arrow_down.png);
+	background-image: url(../img/red_arrow_down.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	width:70px;
@@ -631,7 +631,7 @@ margin-bottom:-380px;
 {
 	height:145px;
 	width:135px;
-	background-image: url(/images/game/honeycomb_white.png);
+	background-image: url(../img/honeycomb_white.png);
 	background-repeat: no-repeat;
 	background-position: center center;	
 }
@@ -639,7 +639,7 @@ margin-bottom:-380px;
 {
 	height:145px;
 	width:135px;
-	background-image: url(/images/game/honeycomb_black.png);
+	background-image: url(../img/honeycomb_black.png);
 	background-repeat: no-repeat;
 	background-position: center center;	
 }
@@ -813,7 +813,7 @@ color:#FFFFFF;
 	color:#e2e2e2;
 	font-size:13px;
 	font-weight:bold;
-	background-image: url(/images/game/info_box_bg.gif);
+	background-image: url(../img/info_box_bg.gif);
 	background-repeat: repeat;
 }
 .box_half .box_header .box_btns, .box_full .box_header .box_btns
@@ -830,7 +830,7 @@ color:#FFFFFF;
 	float:right;
 	width:20px;
 	height:20px;
-	background-image: url(/images/game/box_header_icons.gif);
+	background-image: url(../img/box_header_icons.gif);
 	background-position: 0px center;
 }
 .box_half .box_header .box_btns a.plus_minus, .box_full .box_header .box_btns a.plus_minus
@@ -888,7 +888,7 @@ vertical-align:top;
 }
 .box_full_split
 {
-	background-image: url(/images/game/grey_box.gif);
+	background-image: url(../img/grey_box.gif);
 	background-repeat: repeat-y;
 	background-position: center;
 }
@@ -974,7 +974,7 @@ margin-top:20px;
 	width:50px;
 	height:35px;
 	padding-top:15px;
-	background-image: url(/images/game/hex_icon.gif);
+	background-image: url(../img/hex_icon.gif);
 	background-repeat: no-repeat;
 	background-position: center center;	
 }
@@ -993,7 +993,7 @@ margin-top:20px;
 	height:22px;
 	float:right;
 	display:block;
-	background-image: url(/images/game/icons_on_white.gif);
+	background-image: url(../img/icons_on_white.gif);
 	background-repeat: no-repeat;
 	background-position: 0px;
 	text-indent: -9999px;
@@ -1010,14 +1010,14 @@ margin-top:20px;
 }
 .arrow_up
 {
-	background-image: url(/images/game/arrowup.gif);
+	background-image: url(../img/arrowup.gif);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 15px;
 }
 .arrow_down
 {
-	background-image: url(/images/game/arrowdown.gif);
+	background-image: url(../img/arrowdown.gif);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 15px;
@@ -1076,7 +1076,7 @@ padding-right:20px;
 padding-bottom:20px;
 }
 .latest_activity_wrapper .item .badge {
-	background-image: url(/images/game/badges.gif);
+	background-image: url(../img/badges.gif);
 	background-repeat: no-repeat;
 	background-position: 0px top;
 	width:60px;
@@ -1152,7 +1152,7 @@ a.right_top_link
 }
 .right_col .usericon_row
 {
-	background-image: url(/images/game/40x40usericon.gif);
+	background-image: url(../img/40x40usericon.gif);
 	background-repeat: no-repeat;
 	background-position: 15px 5px;
 	padding:10px;
@@ -1279,7 +1279,7 @@ height:200px;
 }
 .scorecard_table tfoot .green_sc_footer_header
 {
-	background-image: url(/images/game/green_footerbg.gif);
+	background-image: url(../img/green_footerbg.gif);
 	background-repeat: repeat-x;
 	background-position: top;
 	background-color:#9ed30a;
@@ -1305,7 +1305,7 @@ height:200px;
 
 .scorecard_table tfoot .green_sc_footer_header td.bullet
 {
-	background-image: url(/images/game/green_tablebullet.gif);
+	background-image: url(../img/green_tablebullet.gif);
 	background-repeat: repeat-x;
 	background-position: top;
 
@@ -1411,7 +1411,7 @@ text-align:left;
 }
 .greenheader_table tr.year td,.scorecard_table tr.year td
 {
-	background-image: url(/images/game/td_year_bg.gif);
+	background-image: url(../img/td_year_bg.gif);
 	background-repeat: repeat-x;
 	background-position: center;
 	padding: 5px;
@@ -1448,7 +1448,7 @@ text-align:left;
 }
 .web_game_history h2.redlined
 {
-	background-image: url(/images/game/red2x2.gif);
+	background-image: url(../img/red2x2.gif);
 	background-repeat: repeat-x;
 	background-position: center;
 	width:300px;
@@ -1458,7 +1458,7 @@ text-align:left;
 .web_game_history h2.redlined div
 {
 	padding:5px;
-	background-image: url(/images/game/arrowed_bg_light.png);
+	background-image: url(../img/arrowed_bg_light.png);
 	margin-left:80px;
 	margin-right:80px;
 	background-repeat: repeat-x;
@@ -1548,7 +1548,7 @@ text-align:left;
 {
 	padding-left:25px;
 	padding-right:25px;
-	background-image: url(/images/game/login_btn_bg.png);
+	background-image: url(../img/login_btn_bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 20px;
@@ -1560,7 +1560,7 @@ text-align:left;
 {
 	padding-left:25px;
 	padding-right:25px;
-	background-image: url(/images/game/register_btn_bg.png);
+	background-image: url(../img/register_btn_bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 20px;
@@ -1569,7 +1569,7 @@ text-align:left;
 }
 .login_wrapper a.loginshow, .login_wrapper a.loginshow:hover
 {
-	background-image: url(/images/game/login_btn_bg_on.gif);
+	background-image: url(../img/login_btn_bg_on.gif);
 	color:#FFFFFF;
 	text-decoration:none;
 }
@@ -1815,7 +1815,7 @@ text-align:left;
 }
 .subhead
 {
-	background-image: url(/images/game/subpageheader-background.png);
+	background-image: url(../img/subpageheader-background.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	margin-top:60px;
@@ -1843,7 +1843,7 @@ text-align:left;
 	float:left;
 	width:150px;
 	padding:10px;
-	background-image: url(/images/game/subheader_numberbg.gif);
+	background-image: url(../img/subheader_numberbg.gif);
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -1865,7 +1865,7 @@ text-align:left;
 }
 .honeycomb_section_black .width_wrapper
 {
-	background-image: url(/images/game/dashboard_sc_bg.jpg);
+	background-image: url(../img/dashboard_sc_bg.jpg);
 	background-repeat: repeat-x;
 	position:relative;
 	margin-top:-125px;
@@ -1915,7 +1915,7 @@ text-align:left;
 	font-size:25px;
 	padding-top:10px;
 	font-weight:normal;
-	background-image: url(/images/game/profile_headshot.jpg);
+	background-image: url(../img/profile_headshot.jpg);
 	padding-left: 100px;
 	background-repeat: no-repeat;
 	height:100px;
@@ -1929,7 +1929,7 @@ text-align:left;
 .profile .web_activity_wrapper .left_col .box_header, .profile .web_activity_wrapper .right_col .box_header
 {
 	background-color: #F2F2F2;
-    background-image: url(/images/game/info_box_bg.gif);
+    background-image: url(../img/info_box_bg.gif);
     background-repeat: repeat;
     border-color: #666666;
     border-style: none none solid;
@@ -2004,7 +2004,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', e
 	width:400px;
 	height:60px;
 	border-right: 1px solid #999999;
-	background-image: url(/images/game/arrown_down_simple.gif);
+	background-image: url(../img/arrown_down_simple.gif);
 	background-repeat: no-repeat;
 	background-position: right 40px;
 	float:left;
@@ -2016,7 +2016,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', e
 	width:410px;
 	height:60px;
 	border-right: 1px solid #999999;
-	background-image: url(/images/game/arrown_down_simple.gif);
+	background-image: url(../img/arrown_down_simple.gif);
 	background-repeat: no-repeat;
 	background-position: right 40px;
 	font-size:14px;
@@ -2057,7 +2057,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', e
 	bottom:0;
 	height:150px;
 	width:100%;
-	background-image: url(/images/game/games_footer_bg.gif);
+	background-image: url(../img/games_footer_bg.gif);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	overflow:hidden;
@@ -2151,7 +2151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', e
 }
 .home_banner_image
 {
-	background-image: url(/images/game/login_bg1.jpg);
+	background-image: url(../img/login_bg1.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 
@@ -2170,7 +2170,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8000000', e
 {
 	width:100%;
 	height:100%;
-	background-image: url(/images/game/register_bg.jpg);
+	background-image: url(../img/register_bg.jpg);
 	background-repeat: repeat-x;
 	background-position: top;	
 	background-color:#fff;
