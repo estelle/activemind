@@ -31,8 +31,11 @@ function Share_Loader() {
         var name = user.firstname + " " + user.lastname;
         $container.find("li.user-fullname").html(name);
         $container.find("li.golf-course").html(user);
+        var avatar = user.avatar.replace(/%SIZE%/, "small")
         //var avatar = user.avatar;
-        var avatar = "img/IanPoulter.jpg";
+        // size just needs to replace it
+        // tiny, small, medium, large
+        // var avatar = "img/IanPoulter.jpg";
 
         return self;
     },
@@ -52,18 +55,23 @@ function Share_Loader() {
         var $container = $("#user-stats");
         var round = self.shareObj.round;
         var golfcourse = round.golfcourse[5].name;
+        var score  = round.round[477].statistics.score;
+        var putts  = round.round[477].statistics.total_putts;
+        var driveAcc = round.round[477].statistics.total_fairway_accurate;
+        var gir = round.round[477].statistics.green_hit_in_regulation;
         $container.find("li.golf-course").html(golfcourse);
-
-        // var address = round.golfcourse.5.address.city;
-        // var state = round.golfcourse.5.state.name;
+        $container.find("li.score span").html(score);
+        $container.find("li.putts span").html(score);
+        $container.find("li.drive-acc span").html(driveAcc);
+        $container.find("li.gir span").html(gir);
         return self;
     },
 
     self.createComment = function(comment) {
         var $container = $("#share-comment-template").clone();
         var text, name;
-        //$container.find("img").attr("src", comment.user.avatar);
-        $container.find("img").attr("src", "img/placeholder-avatar.jpg");
+        $container.find("img").attr("src", comment.user.avatar.replace(/%SIZE%/, "small"));
+        // $container.find("img").attr("src", "img/placeholder-avatar.jpg");
         $container.attr("id", comment.activity_id).removeClass("hide");
         name = "<b>" + comment.user.firstname + " " + comment.user.lastname + ":</b>";
         text = name + "  " + comment.body;
