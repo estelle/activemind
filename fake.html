@@ -4,8 +4,9 @@
 
     
     
-    <link rel="stylesheet" type="text/css" href="css/demo.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/demo.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.18.custom.css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/global.css" media="screen">
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -33,18 +34,19 @@
 <body>
 <div class="main_wrapper">
     <div class="header_wrapper header_wrapper_no_map">
-        <div class="top_bar" style="display: none;">
+        <div class="top_bar game_user_menu" style="">
             <div class="width_wrapper">
-                <div class="rise_logo"><a href=""><img src="img/logo-small.jpg"></a></div>
+                <div class="rise_logo"><a href=""><img src="img/game-your-game-making-golf-twice-the-fun.png"></a></div>
                 <ul class="top_nav_right">
-                    <li><a href="#">Players</a></li>
-                    <li><a href="#">Pros</a></li>
+                    <li><a href="/dashboard">Dashboard</a></li>
+                    <li><a href="/activity">Activity</a></li>
+                    <li><a href="/players">Players</a></li>
                 </ul>
-                <div class="search_wrapper">
+                <!--div class="search_wrapper">
                     <form action="#">
                         <input class="searh_text" id="searh_text" type="text" value="Search">
                     </form>
-                </div>
+                </div-->
                 <div class="user_menu">
                     <ul>
                         <li><a href="dashboard">Dashboard</a></li>
@@ -67,7 +69,7 @@
     <div class="clearblock"><img src="img/spacer.gif"></div>
 
 
-  <div class="game_user_menu">
+  <div class="game_user_menu" style="display:none">
     <div class="width_wrapper">
         <div class="username_btn" id="username_btn">
             <img class="thumb" src="img/sm_thumb_game.jpg" align="absmiddle">
@@ -81,8 +83,10 @@
         <div class="send_btn">
             <a href="#"><img src="img/send_btn.gif"></a>
         </div>
-
     </div>
+
+
+
 </div>
 <div id="map_wrapper" class="map_wrapper" style="top: -8px !important; height: 566px; position: relative; background-color: rgb(0, 0, 0); overflow: hidden; -webkit-transform: translateZ(0); "><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; "><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; "><div style="position: absolute; left: 0px; top: 0px; z-index: 1; "><div style="-webkit-transform: translateZ(0); z-index: 100; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 101; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 102; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 103; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 104; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 105; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 106; position: absolute; left: 0px; top: 0px; "></div></div></div></div></div>
 
@@ -318,20 +322,20 @@
     <div class="width_wrapper">
         <div class="hole_index_wrapper">
             <div class="hdr">
-                <a href="#" id="previoushole_btn"><img src="img/hole_prev.gif"></a>
-                <a href="#" id="nexthole_btn"><img src="img/hole_next.gif"></a>
+                <a href="#" id="previoushole_btn"><img src="/images/game/hole_prev.gif"></a>
+                <a href="#" id="nexthole_btn"><img src="/images/game/hole_next.gif"></a>
             </div>
             <div id="hole_nav"><div class="item on" id="item1">1</div><div class="item" id="item2">2</div><div class="item" id="item3">3</div><div class="item" id="item4">4</div><div class="item" id="item5">5</div><div class="item" id="item6">6</div><div class="item" id="item7">7</div><div class="item" id="item8">8</div><div class="item" id="item9">9</div></div>
         </div>
-        <div class="clearblock"><img src="img/spacer.gif"></div>
+        <div class="clearblock"><img src="/images/game/spacer.gif"></div>
         <div class="info_game">
-            <li>
+            <div class="item">
                 <div class="info" id="rinfo_overunder">-1</div>
                 <div class="subhdr">
                     UNDER/OVER
                 </div>
             </div>
-            <li>
+            <div class="item">
                 <div class="info">
                     --
                 </div>
@@ -339,34 +343,34 @@
                     RECORDS
                 </div>
             </div>
-            <li>
+            <div class="item">
                 <div class="info" id="rinfo_score">30</div>
                 <div class="subhdr">
                     SCORE
                 </div>
             </div>
-            <li>
+            <div class="item">
                 <div class="info" id="rinfo_total_putts">1</div>
                 <div class="subhdr">
                     PUTTS
                 </div>
             </div>
 
-            <li>
+            <div class="item">
                 <div class="info" id="rinfo_fairway_accuracy">NO</div>
                 <div class="subhdr">
                     FAIR ACC.
                 </div>
             </div>
 
-            <li>
+            <div class="item">
                 <div class="info" id="rinfo_green_hit_reg">NO</div>
                 <div class="subhdr">
                     GREEN IN REG.
                 </div>
             </div>
 
-            <li>
+            <div class="item">
                 <div class="info">
                     --%
                 </div>
