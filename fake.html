@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.18.custom.css" media="screen">
 <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/global.css" media="screen">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -324,13 +325,13 @@
         </div>
         <div class="clearblock"><img src="img/spacer.gif"></div>
         <div class="info_game">
-            <div class="item">
+            <li>
                 <div class="info" id="rinfo_overunder">-1</div>
                 <div class="subhdr">
                     UNDER/OVER
                 </div>
             </div>
-            <div class="item">
+            <li>
                 <div class="info">
                     --
                 </div>
@@ -338,34 +339,34 @@
                     RECORDS
                 </div>
             </div>
-            <div class="item">
+            <li>
                 <div class="info" id="rinfo_score">30</div>
                 <div class="subhdr">
                     SCORE
                 </div>
             </div>
-            <div class="item">
+            <li>
                 <div class="info" id="rinfo_total_putts">1</div>
                 <div class="subhdr">
                     PUTTS
                 </div>
             </div>
 
-            <div class="item">
+            <li>
                 <div class="info" id="rinfo_fairway_accuracy">NO</div>
                 <div class="subhdr">
                     FAIR ACC.
                 </div>
             </div>
 
-            <div class="item">
+            <li>
                 <div class="info" id="rinfo_green_hit_reg">NO</div>
                 <div class="subhdr">
                     GREEN IN REG.
                 </div>
             </div>
 
-            <div class="item">
+            <li>
                 <div class="info">
                     --%
                 </div>
@@ -406,7 +407,7 @@ function getclub(id)
             {
                 returnobj = clubs[key];
             }
-            //  var holeitem = $('<div class="item">'+ key + '</div>');
+            //  var holeitem = $('<li>'+ key + '</div>');
             //jQuery.data(holeitem, 'holedata', holes[key]);
         }}
     return returnobj;
