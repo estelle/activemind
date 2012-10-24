@@ -1,0 +1,1062 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="chrome-extension://mfjanagceblmeijonojeojjmjfiokgeo/domify.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="en">
+
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/demo.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.8.18.custom.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript" src="js/site_golfmap.js"></script>
+<script type="text/javascript" src="js/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="js/25-36020882.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+<title>GameYourGame - Activity Share</title>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30107240-1']);
+        _gaq.push(['_setDomainName', 'gameyourgame.com']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+<script type="text/javascript" charset="UTF-8" src="http://maps.gstatic.com/cat_js/intl/en_us/mapfiles/api-3/9/17/%7Bcommon,map,util,marker,poly%7D.js"></script><script type="text/javascript" charset="UTF-8" src="http://maps.gstatic.com/cat_js/intl/en_us/mapfiles/api-3/9/17/%7Bstats%7D.js"></script></head>
+<body>
+<div class="main_wrapper">
+    <div class="header_wrapper header_wrapper_no_map">
+        <div class="top_bar" style="display: none;">
+            <div class="width_wrapper">
+                <div class="rise_logo"><a href=""><img src="img/logo-small.jpg"></a></div>
+                <ul class="top_nav_right">
+                    <li><a href="#">Players</a></li>
+                    <li><a href="#">Pros</a></li>
+                </ul>
+                <div class="search_wrapper">
+                    <form action="#">
+                        <input class="searh_text" id="searh_text" type="text" value="Search">
+                    </form>
+                </div>
+                <div class="user_menu">
+                    <ul>
+                        <li><a href="dashboard">Dashboard</a></li>
+                        <li><a href="activity">Activity</a></li>
+                        <li>
+                            <a href="#" class="my_actions_menu" id="my_actions_menu"><img class="me_image" src="img/me.gif" width="23" height="25" align="absmiddle">Me</a>
+                            <ul id="member_actions_menu">
+                                <li><a href="#">My Profile</a></li>
+                                <li><a href="mygames">My Games</a></li>
+                                <li><a href="#">Club Management</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#" id="logout">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearblock"><img src="img/spacer.gif"></div>
+
+
+  <div class="game_user_menu">
+    <div class="width_wrapper">
+        <div class="username_btn" id="username_btn">
+            <img class="thumb" src="img/sm_thumb_game.jpg" align="absmiddle">
+            <div class="name" id="d_name">ARNAUD TELLIER</div>
+        </div>
+
+        <div class="date_btn" id="date_btn">
+            <div class="date"><span id="gamedate">Fri, 6/22/12 4:02 PM</span> - <span id="golfcoursename">Gleneagles International Golf Course</span></div>
+        </div>
+
+        <div class="send_btn">
+            <a href="#"><img src="img/send_btn.gif"></a>
+        </div>
+
+    </div>
+</div>
+<div id="map_wrapper" class="map_wrapper" style="top: -8px !important; height: 566px; position: relative; background-color: rgb(0, 0, 0); overflow: hidden; -webkit-transform: translateZ(0); "><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; "><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; "><div style="position: absolute; left: 0px; top: 0px; z-index: 1; "><div style="-webkit-transform: translateZ(0); z-index: 100; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 101; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 102; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 103; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 104; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 105; position: absolute; left: 0px; top: 0px; "></div><div style="-webkit-transform: translateZ(0); z-index: 106; position: absolute; left: 0px; top: 0px; "></div></div></div></div></div>
+
+<div class="top_map_controls">
+    <div class="width_wrapper">
+        <div class="map_controls">
+            <a id="map_zoom_in" href="#"><img src="img/zoomin.png"></a>
+            <a id="map_zoom_out" href="#"><img src="img/zoomout.png"></a>
+            <a id="map_heading_rotate" href="#" style="display: none; "><img src="img/headingrotate.png"></a>
+        </div>
+        <div class="date_filter" style="margin-top:15px;">
+            <ul>
+                <li><a href="#" id="club" class="basic"><strong style="color:#000;">Club Usage</strong></a></li>
+                <li><a href="#" id="scorecard" class="basic"><strong style="color:#000;">Scorecard</strong></a></li>
+                <li class="first"><a href="#" id="highlights" class="basic"><strong style="color:#000;">Summary</strong></a></li>
+
+                <div class="clearblock"><img src="img/spacer.gif"></div>
+            </ul>
+
+        </div>
+
+        <div class="date_filter" style="margin-top:15px;float:left;">
+            <ul style="float:left;">
+                <li class="first" style="float:left;overflow:hidden;"><a href="#" style="width:70px;text-align:center;"><strong style="color:#000;" id="game_details">Game Details</strong></a></li>
+                <div class="clearblock"><img src="img/spacer.gif"></div>
+            </ul>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+<div class="hole_info_wrapper" id="hole_info_wrapper">
+    <div id="shots_analysis_info" style="height: 356px; "><div class="closeinfo_btn">Close (x)</div><h2>HOLE 1</h2><div class="subheader">Birdie</div><div id="scroller" style="height: 281px; "><div class="clubitem"><table><tbody><tr><td>1</td><td><strong>Unspecified</strong><br>(Unassigned)<br>Equipment Type: Hybrid</td><td align="right"><strong>247.91 </strong>Metres</td></tr></tbody></table></div><div class="clubitem"><table><tbody><tr><td>2</td><td><strong>Unspecified</strong><br>(Unassigned)<br>Equipment Type: Hybrid</td><td align="right"><strong>77.27 </strong>Metres</td></tr></tbody></table></div><div class="clubitem"><table><tbody><tr><td>3</td><td><strong>Unspecified</strong><br>(Unassigned)<br>Equipment Type: Hybrid</td><td align="right"><strong>16.88 </strong>Metres</td></tr></tbody></table></div><div class="clubitem"><table><tbody><tr><td>4</td><td><strong>Unspecified</strong><br>(Unassigned)<br>Equipment Type: Hybrid</td><td align="right"><strong>14.56 </strong>Metres</td></tr></tbody></table></div></div></div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<!-- modal content -->
+<div id="basic-modal-content">
+
+    <div id="info_wrapper" class="info_wrapper">
+
+        <div id="highlights_wrapper" class="sc_info" style="display: none; ">
+            <div class="closeinfo_btn" style="clear:both;">Close (x)</div>
+            <div class="clearblock"><img src="img/spacer.gif"></div>
+            <div style="padding:10px;">
+                <div class="box_third row_1">
+                    <div class="box_header">
+                        Longest Drive
+                    </div>
+                    <div class="box_body records_won">
+                        <p><span id="d_longest_drive">0</span> metres<br>
+                            Hole <em>N/A</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="box_third row_1">
+                    <div class="box_header">
+                        Longest Putt
+                    </div>
+                    <div class="box_body records_won">
+                        <p><span id="d_longest_putt">7.63</span> metres<br>
+                            Hole <em>N/A</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="box_third row_1">
+                    <div class="box_header">
+                        Best Hole
+                    </div>
+                    <div class="box_body records_won">
+                        <p><em>N/A</em> Eagle<br>
+                            Hole <em>N/A</em>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="clearblock"><img src="img/spacer.gif"></div>
+
+                <div class="box_third row_2">
+                    <div class="box_header">
+                        Holes Below Par
+                    </div>
+                    <div class="box_body records_won">
+                        <p>Birdie Hole <em>N/A</em></p>
+                        <p>Birdie Hole <em>N/A</em></p>
+                    </div>
+                </div>
+                <div class="box_third row_2">
+                    <div class="box_header">
+                        Course Records
+                    </div>
+                    <div class="box_body records_won">
+                        <p>Longest Drive - Hole <em>N/A</em></p>
+                        <p>Longest Drive - Hole <em>N/A</em></p>
+                    </div>
+                </div>
+                <div class="box_third row_2">
+                    <div class="box_header">
+                        Personal Bests
+                    </div>
+                    <div class="box_body records_won">
+                        <p>Personal Bests <em>N/A</em></p>
+                    </div>
+                </div>
+
+                <div class="clearblock"><img src="img/spacer.gif"></div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div id="scorecard_wrapper" class="sc_info" style="display: none; ">
+            <div class="closeinfo_btn" style="clear:both;">Close (x)</div>
+            <div class="clearblock"><img src="img/spacer.gif"></div>
+            <table class="scorecard_table">
+                <tbody><tr>
+                    <th>Hole</th>
+                    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th id="sc_holenumber">OUT</th>
+                    <th>Next</th>
+                </tr>
+                <tr class="year">
+                    <td colspan="12">&nbsp;</td>
+                </tr>
+                </tbody><tbody>
+                <tr>
+                    <td>Blue</td>
+                    <td>345</td><td>322</td><td>357</td><td>162</td><td>292</td><td>577</td><td>357</td><td>152</td><td>442</td><td id="sc_holeblue">---</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Par</td>
+                    <td>4</td><td>4</td><td>4</td><td>3</td><td>4</td><td>5</td><td>4</td><td>3</td><td>5</td><td id="sc_holepar">---</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr class="sep">
+                    <td colspan="12"><hr></td>
+                </tr>
+                <tr class="shots">
+                    <td>Shots</td>
+                    <td>4</td><td>4</td><td>3</td><td>2</td><td>4</td><td>4</td><td>3</td><td>3</td><td>3</td><td id="sc_holeshots">--</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr class="putts">
+                    <td>Putts</td>
+                    <td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td id="sc_numberofputts">--</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+
+                </tbody>
+            </table>
+            <table class="scorecard_table" style="margin-top:5px;">
+                <tfoot>
+                <tr class="green_sc_footer_header">
+                    <td>&nbsp;</td>
+                    <td>UNDER/OVER</td>
+                    <td>RECORDS</td>
+                    <td>SCORE</td>
+                    <td>PUTTS</td>
+                    <td>F'WAY ACC.</td>
+                    <td>GREEN IN REG.</td>
+                    <td>SAND TRAP SAVES</td>
+
+                </tr>
+                <tr>
+                    <td><strong>THIS GAME</strong></td>
+                    <td><strong id="scinfo_overunder">-6</strong></td>
+                    <td><strong>--</strong></td>
+                    <td><strong id="scinfo_score">30</strong></td>
+                    <td><strong id="scinfo_putts">6</strong></td>
+                    <td><strong id="scinfo_wayacc">44%</strong></td>
+                    <td><strong id="scinfo_gir">44%</strong></td>
+                    <td><strong>---% (from - holes)</strong></td>
+                </tr>
+                <tr>
+                    <td>COURSE AVE.</td>
+                    <td>+14</td>
+                    <td>4</td>
+                    <td>84</td>
+                    <td>34</td>
+                    <td>80%</td>
+                    <td>60%</td>
+                    <td>80% (from 6 holes)</td>
+                </tr>
+                </tfoot>
+            </table>
+
+        </div>
+        <div id="club_wrapper" class="sc_info" style="display: none; ">
+            <div class="closeinfo_btn" style="clear:both;">Close (x)</div>
+            <div class="clearblock"><img src="img/spacer.gif"></div>
+            <div style="padding:10px;">
+                <div id="chart_div"></div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+
+<!-- preload the images -->
+<!--
+<div style='display:none'>
+  <img src='img/basic/x.png' alt='' />
+</div>
+-->
+
+<div class="games_footer">
+    <div class="width_wrapper">
+        <div class="hole_index_wrapper">
+            <div class="hdr">
+                <a href="#" id="previoushole_btn"><img src="img/hole_prev.gif"></a>
+                <a href="#" id="nexthole_btn"><img src="img/hole_next.gif"></a>
+            </div>
+            <div id="hole_nav"><div class="item on" id="item1">1</div><div class="item" id="item2">2</div><div class="item" id="item3">3</div><div class="item" id="item4">4</div><div class="item" id="item5">5</div><div class="item" id="item6">6</div><div class="item" id="item7">7</div><div class="item" id="item8">8</div><div class="item" id="item9">9</div></div>
+        </div>
+        <div class="clearblock"><img src="img/spacer.gif"></div>
+        <div class="info_game">
+            <div class="item">
+                <div class="info" id="rinfo_overunder">-1</div>
+                <div class="subhdr">
+                    UNDER/OVER
+                </div>
+            </div>
+            <div class="item">
+                <div class="info">
+                    --
+                </div>
+                <div class="subhdr">
+                    RECORDS
+                </div>
+            </div>
+            <div class="item">
+                <div class="info" id="rinfo_score">30</div>
+                <div class="subhdr">
+                    SCORE
+                </div>
+            </div>
+            <div class="item">
+                <div class="info" id="rinfo_total_putts">1</div>
+                <div class="subhdr">
+                    PUTTS
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="info" id="rinfo_fairway_accuracy">NO</div>
+                <div class="subhdr">
+                    FAIR ACC.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="info" id="rinfo_green_hit_reg">NO</div>
+                <div class="subhdr">
+                    GREEN IN REG.
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="info">
+                    --%
+                </div>
+                <div class="subhdr">
+                    SAND TRAP SAVES
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="dialog-modal" title="Loading Data">
+    <div style="text-align:center;"><img src="js/ajax-loader.gif"></div>
+</div>
+
+<div id="dialog-logout" title="Confirm Logout">
+    <div style="margin-top:10px;">Are you sure you want to logout??</div>
+</div>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAMcnWfIFrTPfKTy-8Xu7BTD0bOCOpQFZ4&amp;sensor=true"></script><script src="http://maps.gstatic.com/intl/en_us/mapfiles/api-3/9/17/main.js" type="text/javascript"></script>
+
+<script>
+var map = null;
+var clubs = null;
+var ib = null;
+var ib_timer = null;
+var holes = null;
+var marker = null;
+var ibcontent = null;
+var ibopenTimer = null;
+var currenthole_node = null;
+function getclub(id)
+{
+    var returnobj = null;
+    for (var key in clubs) {
+        if (clubs.hasOwnProperty(key)) {
+            if(clubs[key]['id'] == id)
+            {
+                returnobj = clubs[key];
+            }
+            //  var holeitem = $('<div class="item">'+ key + '</div>');
+            //jQuery.data(holeitem, 'holedata', holes[key]);
+        }}
+    return returnobj;
+}
+function getTotalShotDistance(id)
+{
+    var totaldist = 0;
+    for(var i = 0; i < holes[id]['shot'].length; i++)
+    {
+        totaldist = totaldist+parseFloat(holes[id]['shot'][i]['calculated_distance_metres']);
+    }
+    return roundNumber(totaldist, 2);
+}
+function clearSelection() {
+    if(document.selection && document.selection.empty) {
+        document.selection.empty();
+    } else if(window.getSelection) {
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+    }
+}
+var itemindex = 0, citemindex = null;
+
+
+function showtab(tab)
+{
+    $('.sc_info').each(function () {
+        $(this).hide();
+    });
+    $('#'+tab+'_wrapper').show();
+
+
+    //}
+}
+
+function loadScript() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyAMcnWfIFrTPfKTy-8Xu7BTD0bOCOpQFZ4&sensor=true";
+    document.body.appendChild(script);
+    /*var script2 = document.createElement("script");
+    script2.type = "text/javascript";
+    script2.src = "js/infobox.js";
+    document.body.appendChild(script);*/
+}
+var istrayopen = false;
+var istrayopen_outtimer= null;
+$(document).ready(function() {
+
+    $('.closeinfo_btn').each(function ()
+    {
+
+        $(this).bind('click', function () {
+            $('.sc_info').each(function () { $(this).hide(); });
+            $('#basic-modal-content').slideUp();
+
+        });
+    });
+
+    $('#map_wrapper').css('height',($(window).height()-190)+'px');
+
+    $(window).resize(function() {
+        $('#map_wrapper').css('height',($(window).height()-190)+'px');
+    });
+
+
+    $('#game_details').click(function () {
+        $('#hole_info_wrapper').slideDown();
+        $('#basic-modal-content').hide();
+    });
+
+
+    // Load dialog on click
+    $('.basic').click(function (e) {
+        $('#hole_info_wrapper').slideUp();
+        $('#basic-modal-content').slideDown();
+        if($(this).attr('id') == 'club'){
+            $('#chart_div').empty();
+            drawChart();
+            //$('#basic-modal-content').modal({
+            //'onShow': function () { }
+            //});
+            //
+        }
+        else{
+            //$('#basic-modal-content').modal();
+        }
+        showtab($(this).attr('id'));
+        return false;
+    });
+
+    //init the next prev hole btns
+    $('#previoushole_btn').bind('click', function ()
+    {
+        currenthole_node = $(currenthole_node.prev());
+        if(currenthole_node.hasClass('item'))
+        {
+            currenthole_node.trigger('click');
+        }
+        else
+        {
+            var maxitems = $('#hole_nav .item').length-1;
+            currenthole_node = $($('#hole_nav .item')[maxitems]);
+            // alert(currenthole_node.parent().html())
+            currenthole_node.trigger('click');
+        }
+    });
+
+    $('#nexthole_btn').bind('click', function ()
+    {
+        currenthole_node = $(currenthole_node.next());
+        if(currenthole_node.hasClass('item'))
+        {
+            currenthole_node.trigger('click');
+        }
+        else
+        {
+            currenthole_node = $($('#hole_nav .item')[0]);
+            // alert(currenthole_node.parent().html())
+            currenthole_node.trigger('click');
+        }
+
+    });
+
+    //id="nexthole_btn"
+
+
+
+
+
+
+    //initiallize();
+
+    //$("a.tooltip").easyTooltip();
+
+    //scorecard actions
+
+    /* var sc_info_wrapper=$('#info_wrapper');
+     $('#show_hide_scorecard').bind('click', function () {
+     var thisnode = $(this);
+     if(!thisnode.hasClass('show_hide_scorecard_show'))
+     {
+       thisnode.addClass('show_hide_scorecard_show');
+       sc_info_wrapper.slideDown();
+        $('#highlights').addClass('on');
+        showtab('highlights');
+       istrayopen=true;
+     }
+     else
+     {
+       thisnode.removeClass('show_hide_scorecard_show');
+       sc_info_wrapper.slideUp();
+        $('#scorecard_ul a').each(function () {
+          $(this).removeClass('on');
+        });
+
+       istrayopen=false;
+     }
+     return false;
+     });
+
+     $('#scorecard_ul a').each(function () {
+       $(this).bind('click', function () {
+       if(!istrayopen)
+       {
+         $('#show_hide_scorecard').addClass('show_hide_scorecard_show');
+         $('#info_wrapper').slideDown();
+         }
+        $('#scorecard_ul a').each(function () {
+          $(this).removeClass('on');
+        });
+       $(this).addClass('on');
+       showtab($(this).attr('id'));
+
+       return false;
+     });
+     });
+
+     $('#scorecard').bind('mouseenter',function () {
+       clearTimeout(istrayopen_outtimer);
+     });
+     $('#scorecard').bind('mouseleave', function () {
+       istrayopen_outtimer = setTimeout(function () {
+       $('#show_hide_scorecard').removeClass('show_hide_scorecard_show');
+       $('#info_wrapper').slideUp();
+        $('#scorecard_ul a').each(function () {
+          $(this).removeClass('on');
+        });
+       istrayopen=false;
+       }, 1000);
+
+     });
+    */
+
+    //init external map controls
+    $('#map_zoom_in').bind('click', function () {
+        setMapZoom(map.getZoom() + 1);
+    });
+    $('#map_zoom_out').bind('click', function () {
+        setMapZoom(map.getZoom() - 1);
+    });
+
+    var mapHeading = 0;
+    $('#map_heading_rotate').bind('click', function () {
+        if (map.getTilt())
+        {
+            mapHeading = (mapHeading - 90) %360;
+            // map.getHeading() freezes on Firefox!
+            map.setHeading(mapHeading)
+        }
+    });
+
+
+});
+
+function initRound(rdata) {
+    var rdata = gyg_activity.round;
+    var roundnum = gyg_activity.data.round_id;
+    var golfcourseid = rdata.round[roundnum]['golfcourse_id'];
+
+    //<span id="gamedate"></span> - <span id="golfcoursename"></span>
+
+    //alert(rdata.round[roundnum]['id']);
+    var golfcoursedata = rdata.golfcourse[golfcourseid];
+    clubs = rdata.equipment;
+    holes = rdata.round[roundnum]['hole'];
+
+    var statistics = rdata.round[roundnum]['statistics'];
+    var courserecords = golfcoursedata['course_records'];
+
+
+    var roundDate = dateFormat(rdata.round[roundnum]['validtime_start_utc_timestamp'], "ddd, m/dd/yy h:MM TT");
+    $('#gamedate').text(dateFormat(roundDate, "dddd, m/dd/yy h:MM TT"));
+    $('#gamedate').text(roundDate);
+
+    $('#golfcoursename').text(golfcoursedata['name']);
+
+
+    $('#scinfo_overunder').text(statistics['score']-statistics['par']);
+    $('#scinfo_score').text(statistics['score']);
+    $('#scinfo_putts').text(statistics['total_putts']);
+    $('#scinfo_wayacc').text(roundNumber(statistics['fairway_accuracy']*100,0)+'%');
+    $('#scinfo_gir').text(roundNumber(statistics['green_hit_in_regulation']*100,0)+'%');
+
+
+
+    var user =  gyg_activity.user;
+
+    $('#coursename').text(golfcoursedata['name']);
+
+    //init map
+    var myOptions = {
+        maxZoom:20,
+        minZoom:15,
+        backgroundColor: '#000',
+        scrollwheel: false,
+        heading: 0,
+        disableDefaultUI: true,
+        center: new google.maps.LatLng(golfcoursedata['latitude'],golfcoursedata['longitude']),
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    }
+    map = new google.maps.Map(document.getElementById("map_wrapper"), myOptions);
+    setMapZoom(17);
+
+    /* "statistics":{
+       "longest_drive":"227.23",
+       "longest_putt":"18.73",
+       "total_holes":9,
+       "total_shots":44,
+       "total_valid_shots":44,
+       "par":0,
+       "score":44,
+       "total_green_hit_in_regulation":0,
+       "total_fairway_accurate":0,
+       "green_hit_in_regulation":0,
+       "fairway_accuracy":0,
+       "total_drive_distance":858.09,
+       "total_drive_shots":5,
+       "average_drive_distance":171.618,
+       "total_putts":19,
+       "average_putts_per_hole":2.11111111111
+    },*/
+
+
+    //populate info
+    $('#d_longest_drive').text(statistics['longest_drive']);
+    $('#d_longest_putt').text(statistics['longest_putt']);
+
+
+    $('#rinfo_score').text(statistics['score']);
+
+
+    //populate shots
+    for (var key in holes) {
+
+        /*if (holes.hasOwnProperty(key) && key == "none") {
+
+         for(var i=0; i<holes[key]['shot'].length; i++)
+          {
+            marker = new google.maps.Marker({
+            position: new google.maps.LatLng(holes[key]['shot'][i]['latitude'],holes[key]['shot'][i]['longitude']),
+            map: map,
+            icon: '/images/holeicons/1.png'
+            });
+
+        }
+      }*/
+        if (holes.hasOwnProperty(key) && key != "none") {
+
+            var holeanalysisnav = $('<div class="item" id="item'+key+'">'+ key + '</div>');
+            holeanalysisnav.data("holedata", holes[key]);
+
+            var holeid = (holes[key].hole_index_id);
+            //alert(key);
+            //alert(rdata.hole_index[holeid]);
+            $('#sc_holenumber').before('<th>'+rdata.hole_index[holeid].holeno+'</th>');
+            $('#sc_holeblue').before('<td>'+rdata.hole_index[holeid].teemaleregular+'</td>');
+            $('#sc_holepar').before('<td>'+rdata.hole_index[holeid].parmale+'</td>');
+            $('#sc_holeshots').before('<td>'+ holes[key]['shot'].length+'</td>');
+
+            $('#sc_numberofputts').before('<td>'+ holes[key].total_putts+'</td>');
+
+            holeanalysisnav.dblclick(function() {
+                currenthole_node = $(this);
+                $(this).blur();
+                $('#hole_info_wrapper').slideDown();
+
+
+                $('#hole_info_wrapper').bind('mouseenter',function () {
+                    clearTimeout(istrayopen_outtimer);
+                });
+                $('#hole_info_wrapper').bind('mouseleave', function () {
+                    istrayopen_outtimer = setTimeout(function () {
+                        //$('#show_hide_scorecard').removeClass('show_hide_scorecard_show');
+                        $('#hole_info_wrapper').slideUp();
+                        /* $('#scorecard_ul a').each(function () {
+                      $(this).removeClass('on');
+                     });*/
+                        istrayopen=false;
+                    }, 1000);
+
+                });
+                clearSelection();
+            });
+
+            holeanalysisnav.bind('click', function () {
+                currenthole_node = $(this);
+
+                $('.sc_info').each(function () {
+                    $(this).hide();
+                });
+
+                $('#basic-modal-content').slideUp();
+
+                var height = $(window).height() -400 ;
+                $('#shots_analysis_info').css('height',height+'px');
+
+                $('#hole_nav .item').each(function () {
+                    $(this).removeClass('on');
+                });
+                $(this).addClass('on');
+                $(this).blur();
+
+                var temp = $(this);
+                var hdata = temp.data("holedata");
+
+
+
+                //set specific
+                $('#rinfo_overunder').text(hdata['shot'].length - rdata.hole_index[holeid].parmale);
+                $('#rinfo_total_putts').text(hdata.total_putts);
+                if(hdata['is_green_hit_in_regulation'])
+                    var str1 = 'NO';
+                else
+                    var str1  = 'YES'
+
+                if(hdata['is_fairway_accuracy'])
+                    var str2 = 'NO';
+                else
+                    var str2 = 'YES';
+                $('#rinfo_green_hit_reg').text(str1);
+                $('#rinfo_fairway_accuracy').text(str2);
+
+
+
+
+
+                // $('#rinfo_total_putts').text(statistics['total_putts']);
+
+
+                var c = new google.maps.LatLng(hdata['shot'][0]['latitude'],hdata['shot'][0]['longitude']);
+                map.panTo(c);
+
+                $('#shots_analysis_info').empty();
+
+                var closebtn = $('<div class="closeinfo_btn">Close (x)</div>');
+                closebtn.bind('click', function () {
+                    $('#hole_info_wrapper').slideUp();
+                });
+                $('#shots_analysis_info').append(closebtn);
+
+
+                var dpar = hdata['shot'].length - rdata.hole_index[holeid].parmale
+                var rpar;
+                switch(dpar) {
+                    case -4:
+                    case -3:
+                    case -2:
+                        rpar = "Eagle";
+                        break;
+                    case -1:
+                        rpar = "Birdie";
+                        break;
+                    case 0:
+                        rpar = "Par";
+                        break;
+                    case 1:
+                        rpar = "Bogey";
+                        break;
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                        rpar = "Double Bogey";
+                        break
+                    default:
+                }
+                $('#shots_analysis_info').append('<h2>HOLE '+temp.text()+'</h2><div class="subheader">'+rpar+'</div>');
+
+                $('#shots_analysis_info').append('<div id="scroller"></div>');
+
+                $('#scroller').css('height', (height-75)+'px');
+
+
+                for(var i=0; i<hdata['shot'].length; i++)
+                {
+                    var club = getclub(+hdata['shot'][i]['equipment_id']);
+                    $('#scroller').append('<div class="clubitem"><table><tr><td>'+(i+1)+'</td><td><strong>'+club['name']+'</strong><br/>'+club['modelRange']['name'] + '<br/>Equipment Type: '+ club['equipmentType']['name']+'</td><td align="right"><strong>'+hdata['shot'][i]['calculated_distance_metres']+' </strong>Metres</td></tr></table></div>');
+                }
+
+                $('#hole_info_wrapper').slideUp();
+                //$('#hole_info_wrapper').slideDown();
+
+
+                $('#hole_info_wrapper').bind('mouseenter',function () {
+                    clearTimeout(istrayopen_outtimer);
+                });
+                $('#hole_info_wrapper').bind('mouseleave', function () {
+                    istrayopen_outtimer = setTimeout(function () {
+                        //$('#show_hide_scorecard').removeClass('show_hide_scorecard_show');
+                        $('#hole_info_wrapper').slideUp();
+                        /* $('#scorecard_ul a').each(function () {
+                      $(this).removeClass('on');
+                     });*/
+                        istrayopen=false;
+                    }, 1000);
+
+                });
+
+
+
+
+            });
+
+
+            $('#hole_nav').append(holeanalysisnav);
+
+            if(itemindex == 0)
+            {
+                $('#item'+key).trigger('click');
+                citemindex = ('#item'+key);
+            }
+            itemindex++;
+            //draw shots
+            //var holepathCoords = [];
+            //var holepathCoords_new = [];
+
+            //var initpos = null;
+
+            var startlatlon = null;
+            var startlat = null;
+            var startlon = null;
+            for(var i=0; i<holes[key]['shot'].length; i++)
+            {
+                if(i==0)
+                {
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(holes[key]['shot'][i]['latitude'],holes[key]['shot'][i]['longitude']),
+                        map: map,
+                        icon: '/images/holeicons/'+key+'.png'
+                    });
+                    //ib.open(map, marker);
+                }
+
+                //draw segement
+                var pathcolor = '#0f0';
+                if(holes[key]['shot'].length > 3) {
+                    if(i == (holes[key]['shot'].length-1))
+                    {
+                        pathcolor = '#FF0000';
+                    }
+                    if(i == (holes[key]['shot'].length-2))
+                    {
+                        pathcolor = '#FFFF00';
+                    }
+                }
+
+                if (i < holes[key]['shot'].length - 1 || holes[key]['pin_position']) {
+
+
+                    drawShot(holes[key]['shot'][i], i < holes[key]['shot'].length - 1 ? holes[key]['shot'][i+1]
+                            : {'latitude': holes[key]['pin_position']['latitude'], 'longitude':holes[key]['pin_position']['longitude']}, map, pathcolor, key);
+
+                    /*
+                    var r = 150;
+                    var d = calDistance(startlat, startlon, holes[key]['shot'][i]['latitude'],holes[key]['shot'][i]['longitude']);
+                    if(d >10) {
+                      var brng = calBearing(startlat, startlon, holes[key]['shot'][i]['latitude'],holes[key]['shot'][i]['longitude']);
+                      var ang = calAngel(r, d);
+                      var dang = (brng + 270 + ang/2)%360;
+                      var rp = calDest(startlat, startlon, dang, r);
+                      var pdang = (dang + 180)%360;
+                      var qdang = pdang - ang;
+                      if(pdang - qdang < 0)
+                        qdang = qdang - 360;
+
+                      while (pdang - qdang > 1)
+                      {
+                        pdang = pdang - 1/map.getZoom() - 1;
+                        endlocation = calDest(rp.lat(), rp.lng(), pdang, r);
+
+                        drawsegment(startlatlon, endlocation, pathcolor, holes[key]['shot'][i-1], key);
+                        startlatlon = endlocation;
+                      }
+                    }
+                    else
+                    {
+                      endlocation = new google.maps.LatLng(holes[key]['shot'][i]['latitude'],holes[key]['shot'][i]['longitude']);
+                      drawsegment(startlatlon, endlocation, pathcolor, holes[key]['shot'][i], key);
+                    }
+      */
+                }
+
+            }
+
+
+
+
+
+
+
+
+        }
+
+
+    }
+    /*
+   var flightPlanCoordinates = [
+       new google.maps.LatLng(37.711653,-122.496195),
+         new google.maps.LatLng(37.712670,-122.496668),
+         new google.maps.LatLng(37.710847,-122.495982),
+         new google.maps.LatLng(37.710800,-122.495982)
+   ];
+
+   var holepathtest = new google.maps.Polyline({
+       path: flightPlanCoordinates,
+       strokeColor: '#fff',
+       strokeOpacity: 1.0,
+       strokeWeight: 4
+     });
+
+   holepathtest.setMap(map);*/
+
+    $('#d_name').text(user.firstname.toUpperCase() + ' ' +user.lastname.toUpperCase());
+
+
+    $( "#dialog-modal" ).dialog( "destroy" );
+    currenthole_node = $($('#hole_nav .item')[0]);
+    // alert(currenthole_node.parent().html())
+    currenthole_node.trigger('click');
+
+}
+
+$(document).ready(function() {
+    if (gyg_activity.error)
+        document.writeln("Ooops: " + gyg_activity.error);
+    else
+        initRound();
+    if (gyg_activity.data.hole_sequence_number)
+    {
+        $('#item'+gyg_activity.data.hole_sequence_number).trigger('click');
+        citemindex = ('#item'+gyg_activity.data.hole_sequence_number);
+        setMapZoom(19);
+    }
+
+});
+
+function setMapZoom(level)
+{
+    map.setTilt(level >= 18 ? 45 : 0);
+    map.setZoom(level);
+    if (map.getTilt())
+        $('#map_heading_rotate').show();
+    else
+        $('#map_heading_rotate').hide();
+}
+
+google.load("visualization", "1", {packages:["corechart"]});
+//google.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Club');
+    data.addColumn('number', 'Distance (in Metres)');
+    data.addRows([
+        ['Club', 1000],
+        ['Driver', 1170],
+        ['Wedge', 660],
+        ['Iron', 1030]
+    ]);
+
+    var options = {
+        width: 950, height: 280,
+        title: 'Average Distance by Club',
+        legend: {
+            position: 'none'
+        },
+        chartArea : {
+            left: 50,
+            top: 40,
+            bottom: 0
+        },
+        vAxis: {title: null,  titleTextStyle: {color: 'blue'}}
+    };
+
+    var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+}
+
+
+</script><script src="https://www.google.com/uds/?file=visualization&amp;v=1&amp;packages=corechart" type="text/javascript"></script><script src="https://www.google.com/uds/api/visualization/1.0/4971870c0e5540fdeb5375e90caac491/format+en,default,corechart.I.js" type="text/javascript"></script>
+
+
+    <div class="footer">
+        <div class="width_wrapper">
+            <a href="#">FAQ</a> | <a href="#">HELP</a> | <a href="#">LEGAL</a> | <a href="#">JOBS</a> | <a href="#">ABOUT</a>
+        </div>
+    </div>
+
+
+
+</body></html>
