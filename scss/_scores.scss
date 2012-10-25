@@ -1,0 +1,40 @@
+#hole_nav {
+	display: none;
+}
+
+#banner-footer {
+	margin: 0;
+	height: 120px;
+	background-color: #ccc;
+	background-image: -webkit-linear-gradient(#ddd, #bbb);
+	background-image: -moz-linear-gradient(#ddd, #bbb);
+	background-image: -ms-linear-gradient(#ddd, #bbb);
+	background-image: -o-linear-gradient(#ddd, #bbb);
+	background-image: linear-gradient(to bottom, #ddd, #bbb);
+	box-shadow: 2px 0 0 rgba(0,0,0,0.2);
+	width: 960px; 
+	margin: auto;
+	ul {margin: 0;}
+	li {
+	  float: left;
+	  list-style-type: none;
+	  height: 120px;
+	  text-align: center;
+	  padding: 20px 20px 0;
+	  width: 120px;
+	  box-sizing: border-box;
+	  color: #898989;
+	  font-size: 14px;
+	  font-family: 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
+	  border-left: #aaa 1px solid;
+	  .info {
+		font-size: 48px;
+		color: #f7332c;
+		font-weight: bold;
+		display: block;
+	  }
+	  div {
+	  	line-height: 1;
+	  }
+	}
+}

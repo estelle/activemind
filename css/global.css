@@ -614,7 +614,11 @@ header {
   margin: 0;
   height: 120px;
   background-color: #ccc;
-  background-image: -webkit-linear-gradient(#cccccc, #bbbbbb);
+  background-image: -webkit-linear-gradient(#dddddd, #bbbbbb);
+  background-image: -moz-linear-gradient(#dddddd, #bbbbbb);
+  background-image: -ms-linear-gradient(#dddddd, #bbbbbb);
+  background-image: -o-linear-gradient(#dddddd, #bbbbbb);
+  background-image: linear-gradient(to bottom, #dddddd, #bbbbbb);
   box-shadow: 2px 0 0 rgba(0, 0, 0, 0.2);
   width: 960px;
   margin: auto; }
@@ -630,14 +634,15 @@ header {
     box-sizing: border-box;
     color: #898989;
     font-size: 14px;
+    font-family: 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
     border-left: #aaa 1px solid; }
-    #banner-footer li div {
-      margin: 5px; }
     #banner-footer li .info {
       font-size: 48px;
       color: #f7332c;
       font-weight: bold;
-      margin: 5px; }
+      display: block; }
+    #banner-footer li div {
+      line-height: 1; }
 
 .footer-container {
   background: #f6f3ed;
