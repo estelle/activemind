@@ -61,12 +61,12 @@ nav a:visited {
 }
 nav a:hover {
     background-image: -webkit-gradient(linear, 0 100%,0 0,  
-        from(#464646), to(#313131));
-    background-image: -webkit-gradient(bottom, #464646, #313131);
-    background-image: -moz-gradient(bottom, #464646, #313131);
-    background-image: -ms-gradient(bottom, #464646, #313131);
-    background-image: -o-gradient(bottom, #464646, #313131);
-    background-image: gradient(to top, #464646, #313131);
+        from(#666), to(#414141));
+    background-image: -webkit-gradient(#666, #414141);
+    background-image: -moz-gradient(#666, #414141);
+    background-image: -ms-gradient(#666, #414141);
+    background-image: -o-gradient(#666, #414141);
+    background-image: gradient(to bottom, #666, #414141);
 }
 ul.top_nav_right {
     font-family: "Open Sans Condensed", Arial, sans-serif;

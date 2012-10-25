@@ -199,327 +199,6 @@ body {
     width: 960px;
     /* 1140px - 10% for margins */
     margin: 0 auto; } }
-/* =========================================
-   OOCSS styles 
-   ========================================= */
-/*HEADINGS*/
-/* ====== Headings ====== */
-/* .h1-.h6 classes should be used to maintain the semantically appropriate heading levels - NOT for use on non-headings */
-h1, .h1 {
-  font-size: 196%;
-  font-weight: normal;
-  font-style: normal;
-  color: #AE0345; }
-
-h2, .h2 {
-  font-size: 167%;
-  font-weight: normal;
-  font-style: normal;
-  color: #AE0345; }
-
-h3, .h3 {
-  font-size: 146.5%;
-  font-weight: normal;
-  font-style: normal;
-  color: #DF2B72; }
-
-h4, .h4 {
-  font-size: 110%;
-  font-weight: bold;
-  font-style: normal;
-  color: #333; }
-
-h5, .h5 {
-  font-size: 108%;
-  font-weight: bold;
-  font-style: normal;
-  color: #AE0345; }
-
-h6, .h6 {
-  font-size: 108%;
-  font-weight: normal;
-  font-style: italic;
-  color: #333; }
-
-/* if additional headings are needed they should be created via additional classes, never via location dependant styling */
-.category {
-  font-size: 108%;
-  font-weight: normal;
-  font-style: normal;
-  text-transform: uppercase;
-  color: #333; }
-
-.category a {
-  color: #333; }
-
-/*GRID*/
-.line, .lastUnit {
-  overflow: hidden;
-  *overflow: visible;
-  *zoom: 1; }
-
-.unit {
-  float: left; }
-
-.unitRight {
-  float: right; }
-
-.size1of1 {
-  float: none; }
-
-.size1of2 {
-  width: 50%; }
-
-.size1of3 {
-  width: 33.33333%; }
-
-.size2of3 {
-  width: 66.66666%; }
-
-.size1of4 {
-  width: 25%; }
-
-.size3of4 {
-  width: 75%; }
-
-.size1of5 {
-  width: 20%; }
-
-.size2of5 {
-  width: 40%; }
-
-.size3of5 {
-  width: 60%; }
-
-.size4of5 {
-  width: 80%; }
-
-.lastUnit {
-  float: none;
-  width: auto;
-  _position: relative;
-  _left: -3px;
-  _margin-right: -3px; }
-
-/* mod */
-.mod .inner {
-  /*background: url(skin/transparent.png) repeat left top;*/ }
-
-.bd, .ft, .hd {
-  overflow: hidden;
-  *overflow: visible;
-  zoom: 1; }
-
-b.top, b.top b, b.bottom, b.bottom b {
-  display: block;
-  background-repeat: no-repeat;
-  font-size: 1%;
-  position: relative;
-  z-index: 10; }
-
-.tl, .tr, .bl, .br {
-  height: 10px;
-  width: 10px;
-  float: left; }
-
-.tl {
-  background-position: left top; }
-
-.tr {
-  background-position: right top; }
-
-.bl {
-  background-position: left bottom; }
-
-.br {
-  background-position: right bottom; }
-
-.br, .tr {
-  float: right; }
-
-.tr, .tl {
-  overflow: hidden;
-  margin-bottom: -32000px; }
-
-/* margin bottom needs to be < -9px */
-.bl, .br {
-  margin-top: -10px; }
-
-.top {
-  background-position: center top; }
-
-.bottom {
-  background-position: center bottom;
-  _zoom: 1; }
-
-/* this zoom required for IE5.5 only*/
-/* complex */
-.complex {
-  overflow: hidden;
-  *position: relative;
-  *zoom: 1; }
-
-/* position/zoom required for IE7, 6, 5.5 */
-.complex .tl, .complex .tr {
-  height: 32000px;
-  margin-bottom: -32000px;
-  width: 10px; }
-
-.complex .bl, .complex .br {
-  /*margin-top:0;*/ }
-
-.complex .top {
-  height: 5px; }
-
-.complex .bottom {
-  height: 5px;
-  /*margin-top:-10px;*/ }
-
-/* pop */
-.pop {
-  overflow: visible;
-  margin: 10px 20px 20px 10px;
-  background-position: left top; }
-
-.pop .inner {
-  right: -10px;
-  bottom: -10px;
-  background-position: right bottom;
-  padding: 0 10px 10px 0; }
-
-.pop .tl, .pop .br {
-  display: none; }
-
-.pop .bl {
-  bottom: -10px; }
-
-.pop .tr {
-  float: right;
-  margin-right: -10px;
-  _display: inline;
-  /*fix double margin bug*/ }
-
-/*MEDIA*/
-.media {
-  overflow: hidden;
-  *overflow: visible;
-  zoom: 1; }
-
-.media .img {
-  float: left;
-  margin-right: 10px; }
-
-.media .img img {
-  display: block; }
-
-.media .imgExt {
-  float: right;
-  margin-left: 10px; }
-
-.media p {
-  margin: 0; }
-
- /* SPACING HELPERS
-p,m = padding,margin
-a,t,r,b,l,h,v = all,top,right,bottom,left,horizontal,vertical
-s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
-*/
-.ptn, .pvn, .pan {
-  padding-top: 0px !important; }
-
-.pts, .pvs, .pas {
-  padding-top: 5px !important; }
-
-.ptm, .pvm, .pam {
-  padding-top: 10px !important; }
-
-.ptl, .pvl, .pal {
-  padding-top: 20px !important; }
-
-.prn, .phn, .pan {
-  padding-right: 0px !important; }
-
-.prs, .phs, .pas {
-  padding-right: 5px !important; }
-
-.prm, .phm, .pam {
-  padding-right: 10px !important; }
-
-.prl, .phl, .pal {
-  padding-right: 20px !important; }
-
-.pbn, .pvn, .pan {
-  padding-bottom: 0px !important; }
-
-.pbs, .pvs, .pas {
-  padding-bottom: 5px !important; }
-
-.pbm, .pvm, .pam {
-  padding-bottom: 10px !important; }
-
-.pbl, .pvl, .pal {
-  padding-bottom: 20px !important; }
-
-.pln, .phn, .pan {
-  padding-left: 0px !important; }
-
-.pls, .phs, .pas {
-  padding-left: 5px !important; }
-
-.plm, .phm, .pam {
-  padding-left: 10px !important; }
-
-.pll, .phl, .pal {
-  padding-left: 20px !important; }
-
-.mtn, .mvn, .man {
-  margin-top: 0px !important; }
-
-.mts, .mvs, .mas {
-  margin-top: 5px !important; }
-
-.mtm, .mvm, .mam {
-  margin-top: 10px !important; }
-
-.mtl, .mvl, .mal {
-  margin-top: 20px !important; }
-
-.mrn, .mhn, .man {
-  margin-right: 0px !important; }
-
-.mrs, .mhs, .mas {
-  margin-right: 5px !important; }
-
-.mrm, .mhm, .mam {
-  margin-right: 10px !important; }
-
-.mrl, .mhl, .mal {
-  margin-right: 20px !important; }
-
-.mbn, .mvn, .man {
-  margin-bottom: 0px !important; }
-
-.mbs, .mvs, .mas {
-  margin-bottom: 5px !important; }
-
-.mbm, .mvm, .mam {
-  margin-bottom: 10px !important; }
-
-.mbl, .mvl, .mal {
-  margin-bottom: 20px !important; }
-
-.mln, .mhn, .man {
-  margin-left: 0px !important; }
-
-.mls, .mhs, .mas {
-  margin-left: 5px !important; }
-
-.mlm, .mhm, .mam {
-  margin-left: 10px !important; }
-
-.mll, .mhl, .mal {
-  margin-left: 20px !important; }
-
 .header-container,
 .game_user_menu {
   background: #3d3d3d url("../img/header-bg.gif") top left;
@@ -575,12 +254,12 @@ nav a:visited {
   border-bottom: 2px solid red; }
 
 nav a:hover {
-  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#464646), to(#313131));
-  background-image: -webkit-gradient(bottom, #464646, #313131);
-  background-image: -moz-gradient(bottom, #464646, #313131);
-  background-image: -ms-gradient(bottom, #464646, #313131);
-  background-image: -o-gradient(bottom, #464646, #313131);
-  background-image: gradient(to top, #464646, #313131); }
+  background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#666666), to(#414141));
+  background-image: -webkit-gradient(#666666, #414141);
+  background-image: -moz-gradient(#666666, #414141);
+  background-image: -ms-gradient(#666666, #414141);
+  background-image: -o-gradient(#666666, #414141);
+  background-image: gradient(to bottom, #666666, #414141); }
 
 ul.top_nav_right {
   font-family: "Open Sans Condensed", Arial, sans-serif; }
@@ -637,21 +316,68 @@ header {
     float: left;
     list-style-type: none;
     height: 120px;
-    text-align: center;
     padding: 20px 20px 0;
     width: 120px;
     box-sizing: border-box;
     color: #898989;
     font-size: 14px;
     font-family: 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
-    border-left: #aaa 1px solid; }
-    #banner-footer li .info {
+    border-left: #aaa 1px solid;
+    z-index: 10;
+    position: relative; }
+    #banner-footer li > div {
+      text-align: center; }
+    #banner-footer li .info, #banner-footer li dd {
       font-size: 48px;
       color: #f7332c;
       font-weight: bold;
       display: block; }
     #banner-footer li div {
-      line-height: 1; }
+      line-height: 1;
+      z-index: 2; }
+    #banner-footer li article {
+      position: absolute;
+      left: 180px;
+      top: -10px;
+      height: 140px;
+      width: 500px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+      z-index: 20;
+      background: url(fakeAvatar.gif) no-repeat 0 0 rgba(216, 216, 212, 0.98);
+      background-size: 140px 140px;
+      -webkit-transform: translatez(0);
+      padding-left: 160px;
+      box-sizing: border-box; }
+      #banner-footer li article * {
+        text-transform: uppercase; }
+      #banner-footer li article dl {
+        width: 140px;
+        float: right;
+        background-color: rgba(216, 216, 212, 0.98);
+        font-family: 'helvetica neue', 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
+        text-align: center; }
+        #banner-footer li article dl dt {
+          font-size: 14px; }
+        #banner-footer li article dl dd {
+          font-size: 96px;
+          line-height: 80px;
+          margin: 0; }
+      #banner-footer li article h2, #banner-footer li article h3 {
+        font: "helvetica neue", "myriad pro", "lucida sans", helvetica, sans-serif;
+        margin: 0; }
+      #banner-footer li article h2, #banner-footer li article p span {
+        font-size: 20px;
+        line-height: 20px;
+        color: #f7332c;
+        margin-top: 20px; }
+      #banner-footer li article p {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0; }
+      #banner-footer li article h3 {
+        font-size: 12px;
+        margin-bottom: 20px; }
 
 .footer-container {
   background: #f6f3ed;

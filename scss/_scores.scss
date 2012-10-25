@@ -1,3 +1,5 @@
+$red: #f7332c;
+
 #hole_nav {
 	display: none;
 }
@@ -19,7 +21,6 @@
 	  float: left;
 	  list-style-type: none;
 	  height: 120px;
-	  text-align: center;
 	  padding: 20px 20px 0;
 	  width: 120px;
 	  box-sizing: border-box;
@@ -27,14 +28,71 @@
 	  font-size: 14px;
 	  font-family: 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
 	  border-left: #aaa 1px solid;
-	  .info {
+	  z-index: 10;
+	  // relative so popout article works
+	  position: relative;
+	  > div {
+		  text-align: center;
+	  }
+	  .info, dd {
 		font-size: 48px;
-		color: #f7332c;
+		color: $red;
 		font-weight: bold;
 		display: block;
 	  }
 	  div {
 	  	line-height: 1;
+	  	z-index: 2;
+	  }
+	  article {
+	  	position: absolute;
+	  	left: 180px;
+	  	top: -10px;
+	  	height: 140px;
+	  	width: 500px;
+	  	border-radius: 10px;
+	  	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	  	z-index: 20;
+	  	background: url(fakeAvatar.gif) no-repeat 0 0 rgba(216, 216, 212, 0.98);
+	  	background-size: 140px 140px;
+	  	-webkit-transform: translatez(0);
+	  	padding-left: 160px;
+	  	box-sizing: border-box;
+  		* {text-transform: uppercase;}
+	  	dl {
+	  		width: 140px;
+	  		float: right;
+	  		background-color: rgba(216, 216, 212, 0.98);
+	  		font-family: 'helvetica neue', 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
+	  		text-align: center;
+	  		dt {
+	  			font-size: 14px;
+	  		}
+	  		dd {
+	  			font-size: 96px;
+	  			line-height: 80px;
+	  			margin: 0;
+	  		}
+	  	}
+	  	h2, h3 {
+	  		font: $font;
+	  		margin: 0;
+	  	}
+	  	h2, p span {
+	  		font-size: 20px;
+	  		line-height: 20px;
+	  		color: $red;
+	  		margin-top: 20px;
+	  	}
+	  	p {
+	  		font-size: 20px;
+	  		line-height: 20px;
+	  		margin: 0;
+	  	}
+	  	h3 {
+	  		font-size: 12px;
+	  		margin-bottom: 20px;
+	  	}
 	  }
 	}
 }
