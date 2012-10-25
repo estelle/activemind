@@ -324,7 +324,11 @@ header {
     font-family: 'myriad pro', 'lucida sans', helvetica, arial, sans-serif;
     border-left: #aaa 1px solid;
     z-index: 10;
-    position: relative; }
+    position: static; }
+    #banner-footer li.active {
+      position: relative; }
+      #banner-footer li.active > div {
+        visibility: hidden; }
     #banner-footer li > div {
       text-align: center; }
     #banner-footer li .info, #banner-footer li dd {

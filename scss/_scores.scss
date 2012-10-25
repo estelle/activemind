@@ -30,7 +30,11 @@ $red: #f7332c;
 	  border-left: #aaa 1px solid;
 	  z-index: 10;
 	  // relative so popout article works
-	  position: relative;
+	  position: static;
+	  &.active {
+	  	position: relative; 
+	  	> div {visibility: hidden;}
+	  }
 	  > div {
 		  text-align: center;
 	  }
