@@ -56,6 +56,12 @@ body {
   width: 960px;
   margin: 0; }
 
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xM6Eyu0BCqAfob_z3hhzRFzr7w4p9aSvGirXi6XmeXNA.woff) format("woff"); }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -576,6 +582,9 @@ nav a:hover {
   background-image: -o-gradient(bottom, #464646, #313131);
   background-image: gradient(to top, #464646, #313131); }
 
+ul.top_nav_right {
+  font-family: "Open Sans Condensed", Arial, sans-serif; }
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -661,6 +670,46 @@ header {
     text-decoration: none; }
   .footer-container footer li:last-of-type a {
     border-right: none; }
+
+.games_footer {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  background-image: url(../img/games_footer_bg.gif);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  overflow: hidden; }
+
+.info_game {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.info_game .item {
+  float: left;
+  padding: 26px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-top-color: #f3d3d3d;
+  border-left-color: #f3d3d3d;
+  border-bottom-color: #f3d3d3d;
+  border-right-color: #181818; }
+
+.info_game .item .info {
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: #ff470a;
+  font-weight: bold; }
+
+.info_game .item .subhdr {
+  color: #979797;
+  font-size: 12px;
+  font-weight: bold; }
 
 .mod {
   border-radius: 3px;
