@@ -1,6 +1,7 @@
 .module {
+	margin-bottom: 100px;
 	> header h1 {
-	 padding-bottom: 4px;
+	 padding-bottom: 8px;
 	 border-bottom: 3px solid #ACABA6;
 	 font-size: 26px;
 	 margin-bottom: 5px;
@@ -57,6 +58,7 @@
 		 	height: 60px;
 		 	width: 60px;
 		 	margin-right: -10px;
+		 	border-radius: 2px;
 		  }
 		}
 		li {
@@ -89,8 +91,63 @@
 		&.hot {background-color: rgb(205, 38, 23);}
 		}
 	 }
-}
 
+}
+ aside .pro {
+	 	figure{ 
+	 	  padding: 10px 0;
+	 	  width: 100%;
+	 	  float: left;
+	 	  h2 {
+	 	    font-size: 1.6rem;
+	 	  	line-height: 1.6rem;
+	 	  	margin: 0;
+	 	  }
+	 	  p {
+	 	    margin: 0;
+	 	  	color: #808080;
+	 	  }
+	 	  img {
+	 		float: left;
+	 		height: 70px;
+	 		margin-right: 10px;
+	 		border-radius: 3px;
+	 	  }
+	 	}
+	 	table {
+	 	  clear: both;
+	 	  font-weight: bold;
+	 	  tr.hot {
+	 	    img {border-color: red}
+	 	  	td + td {color: red;}
+	 	  	td.progress {
+	 	  	    color: #fff;
+	 	  		background-color: rgb(251, 208, 193);
+	 	  		span {background-color: rgb(241,46,10)}
+	 	  	}
+	 	  }
+	 	  td {
+	 	    white-space: nowrap;
+	 	  	padding: 5px;
+	 	  	img {
+	 	  		height: 24px;
+	 	  		border: 1px solid #ccc;
+	 	  	}
+	 	   &.progress {
+	 	   	  background-color: #ccc;
+	 	   	  color: white;
+	 	   	  width: 300px;
+	 	   	  background-clip: content-box;
+	 	   	  span {
+	 	   	  	background-color: #999; 
+	 	   	  	padding: 3px;
+	 	   	  	display: block;
+	 	   	  	box-sizing: content-box;
+	 	   	  	}
+	 	   }
+	 	  }
+	 	}
+	 }
 /*   GENERIC CLASSES   */
 .avatar {
 	&.small {

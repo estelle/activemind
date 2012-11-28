@@ -446,84 +446,132 @@ header {
   font-size: 12px;
   font-weight: bold; }
 
-.module > header h1 {
-  padding-bottom: 4px;
-  border-bottom: 3px solid #ACABA6;
-  font-size: 26px;
-  margin-bottom: 5px;
-  color: #f7332c;
-  font-weight: bold; }
-.module > header a {
-  color: #fff;
-  font-family: "Open Sans Condensed", Arial, Sans-serif;
-  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 2px;
-  text-transform: uppercase;
-  float: right;
-  text-decoration: none;
-  background-color: #ff2618;
-  padding: 2px 5px;
-  font-weight: normal;
-  font-size: 0.8rem; }
-.module p.comment {
-  padding-left: 60px;
-  background: url(../img/comment.png) left center no-repeat transparent;
-  margin-left: 20px;
-  line-height: 30px;
-  color: #808080; }
-.module p a {
-  color: #ffbe40;
-  text-decoration: none; }
-.module article {
-  position: relative; }
-  .module article:after {
-    content: '';
-    position: absolute;
-    top: 40px;
-    bottom: 20px;
-    left: 40px;
-    right: 0;
-    border: solid #ccc;
-    border-width: 1px 0 0 3px;
-    z-index: -1; }
-  .module article h2 {
-    padding-top: 40px;
-    padding-left: 20px;
-    margin: 0; }
-    .module article h2 img {
-      position: relative;
-      top: -20px;
-      left: -20px;
-      height: 60px;
-      width: 60px;
-      margin-right: -10px; }
-  .module article li {
-    list-style-type: none;
-    padding-left: 40px; }
-    .module article li span {
-      display: block;
-      color: #ccc;
-      font-size: 1rem; }
-    .module article li.icon:before {
+.module {
+  margin-bottom: 100px; }
+  .module > header h1 {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ACABA6;
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: #f7332c;
+    font-weight: bold; }
+  .module > header a {
+    color: #fff;
+    font-family: "Open Sans Condensed", Arial, Sans-serif;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-transform: uppercase;
+    float: right;
+    text-decoration: none;
+    background-color: #ff2618;
+    padding: 2px 5px;
+    font-weight: normal;
+    font-size: 0.8rem; }
+  .module p.comment {
+    padding-left: 60px;
+    background: url(../img/comment.png) left center no-repeat transparent;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #808080; }
+  .module p a {
+    color: #ffbe40;
+    text-decoration: none; }
+  .module article {
+    position: relative; }
+    .module article:after {
       content: '';
       position: absolute;
-      border-radius: 50%;
-      height: 40px;
-      width: 40px;
-      left: 20px;
-      background-color: #35a64b; }
-    .module article li.icon.score:before {
-      background-color: #f9a91e; }
-    .module article li.solid {
-      background-color: #3e824e;
-      padding: 5px 66px;
-      margin: -5px -25px;
-      min-height: 240px; }
-      .module article li.solid > p {
-        margin-top: 0; }
-    .module article li.hot {
-      background-color: #cd2617; }
+      top: 40px;
+      bottom: 20px;
+      left: 40px;
+      right: 0;
+      border: solid #ccc;
+      border-width: 1px 0 0 3px;
+      z-index: -1; }
+    .module article h2 {
+      padding-top: 40px;
+      padding-left: 20px;
+      margin: 0; }
+      .module article h2 img {
+        position: relative;
+        top: -20px;
+        left: -20px;
+        height: 60px;
+        width: 60px;
+        margin-right: -10px;
+        border-radius: 2px; }
+    .module article li {
+      list-style-type: none;
+      padding-left: 40px; }
+      .module article li span {
+        display: block;
+        color: #ccc;
+        font-size: 1rem; }
+      .module article li.icon:before {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        left: 20px;
+        background-color: #35a64b; }
+      .module article li.icon.score:before {
+        background-color: #f9a91e; }
+      .module article li.solid {
+        background-color: #3e824e;
+        padding: 5px 66px;
+        margin: -5px -25px;
+        min-height: 240px; }
+        .module article li.solid > p {
+          margin-top: 0; }
+      .module article li.hot {
+        background-color: #cd2617; }
+
+aside .pro figure {
+  padding: 10px 0;
+  width: 100%;
+  float: left; }
+  aside .pro figure h2 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0; }
+  aside .pro figure p {
+    margin: 0;
+    color: #808080; }
+  aside .pro figure img {
+    float: left;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 3px; }
+aside .pro table {
+  clear: both;
+  font-weight: bold; }
+  aside .pro table tr.hot img {
+    border-color: red; }
+  aside .pro table tr.hot td + td {
+    color: red; }
+  aside .pro table tr.hot td.progress {
+    color: #fff;
+    background-color: #fbd0c1; }
+    aside .pro table tr.hot td.progress span {
+      background-color: #f12e0a; }
+  aside .pro table td {
+    white-space: nowrap;
+    padding: 5px; }
+    aside .pro table td img {
+      height: 24px;
+      border: 1px solid #ccc; }
+    aside .pro table td.progress {
+      background-color: #ccc;
+      color: white;
+      width: 300px;
+      background-clip: content-box; }
+      aside .pro table td.progress span {
+        background-color: #999;
+        padding: 3px;
+        display: block;
+        box-sizing: content-box; }
 
 /*   GENERIC CLASSES   */
 .avatar.small {
