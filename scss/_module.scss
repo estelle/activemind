@@ -7,6 +7,20 @@
 	 color: #f7332c;
 	 font-weight: bold;
 	 }
+	 > header a {
+        color: #fff;
+        font-family: "Open Sans Condensed", Arial, Sans-serif;
+        text-shadow: -1px -1px 1px rgba(0,0,0,0.2);
+        box-shadow: 1px -1px 1px rgba(0,0,0,0.2);
+        border-radius: 2px;
+        text-transform: uppercase;
+        float: right;
+        text-decoration: none;
+        background-color: #ff2618; 
+        padding: 2px 5px;
+        font-weight: normal;
+        font-size: 0.8rem;
+	 }
 	 p.comment {
 	 	padding-left: 60px;
 	 	background: url(../img/comment.png) left center no-repeat transparent;
