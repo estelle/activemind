@@ -347,7 +347,7 @@ header {
       z-index: 2; }
     #banner-footer li article {
       position: absolute;
-      left: 180px;
+      left: 0;
       top: -10px;
       height: 140px;
       width: 500px;
