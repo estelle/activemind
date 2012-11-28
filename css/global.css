@@ -499,14 +499,14 @@ header {
     .module article li.icon.score:before {
       background-color: #f9a91e; }
     .module article li.solid {
-      background-color: green;
+      background-color: #3e824e;
       padding: 5px 66px;
       margin: -5px -25px;
       min-height: 240px; }
       .module article li.solid > p {
         margin-top: 0; }
     .module article li.hot {
-      background-color: red; }
+      background-color: #cd2617; }
 
 /*   GENERIC CLASSES   */
 .avatar.small {
