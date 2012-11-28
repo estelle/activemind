@@ -1,25 +1,73 @@
-.mod {
-	border-radius: 3px;
-	background: #FFFFFF;
-	margin: 0 0 20px;
-	.head {
-		background: url(/module-header-background.png) repeat $light_grey;
-		border-radius: 3px 3px 0 0;
-		height: 32px;
-		line-height: 32px;
-		padding: 0 15px;
-		text-transform: uppercase;
-		font-family: 'Francois One', arial, sans-serif;
-		font-size: 18px;
-		color: #E6E6E6;
-		text-shadow: 0 -1px 0 #6b6b6b;
-	}
-	section {
-		padding: 10px;
-		img {border-radius: 3px;}
-		border-bottom: 1px solid $faded_grey;
-		&:last-of-type {border: none;}
-	}
+.module {
+	> header h1 {
+	 padding-bottom: 4px;
+	 border-bottom: 3px solid #ACABA6;
+	 font-size: 26px;
+	 margin-bottom: 5px;
+	 color: #f7332c;
+	 font-weight: bold;
+	 }
+	 p a {
+	 	color: #ffbe40;
+	 	text-decoration: none;
+	 }
+	 article {
+	 	position: relative;
+	 
+	 	&:after{
+	 	content: '';
+	 	position: absolute;
+	 	top: 40px;
+	 	bottom: 0;
+	 	left: 40px;
+	 	right: 0;
+	 	border: solid #ccc;
+	 	border-width: 1px 0 0 3px;
+	 	z-index: -1;
+	 	}
+	    h2{
+		  padding-top: 40px;
+		  padding-left: 20px;
+		  margin: 0;
+		  img {
+		 	position: relative;
+		 	top: -20px;
+		 	left: -20px;
+		 	height: 60px;
+		 	width: 60px;
+		 	margin-right: -10px;
+		  }
+		}
+		li {
+			list-style-type: none;
+			padding-left: 40px;
+			span {
+				display: block;
+				color: #ccc;
+				font-size: 1rem;
+			}
+		&.icon:before {
+			content: '';
+			position: absolute;
+			border-radius: 50%;
+			height: 40px;
+			width: 40px;
+			left: 20px;
+			background-color: $green;
+			}
+		&.icon.score:before {
+			background-color: $orange;
+			}
+		&.solid {
+			background-color: green;
+			padding: 5px 66px;
+			margin: -5px -25px;
+			min-height: 240px;
+			> p {margin-top: 0;}
+			}
+		&.hot {background-color: red;}
+		}
+	 }
 }
 
 /*   GENERIC CLASSES   */
