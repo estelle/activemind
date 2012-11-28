@@ -528,46 +528,57 @@ header {
       .module article li.hot {
         background-color: #cd2617; }
 
-aside .pro figure {
+aside figure {
   padding: 10px 0;
   width: 100%;
   float: left; }
-  aside .pro figure h2 {
+  aside figure h2 {
     font-size: 1.6rem;
     line-height: 1.6rem;
     margin: 0; }
-  aside .pro figure p {
+  aside figure p {
     margin: 0;
     color: #808080; }
-  aside .pro figure img {
+  aside figure img {
     float: left;
-    height: 70px;
     margin-right: 10px;
     border-radius: 3px; }
-aside .pro table {
+aside .spotlight figure img {
+  width: 110px;
+  margin-right: 20px; }
+aside .spotlight figure h2 {
+  font-size: 22px; }
+aside .spotlight figure p {
+  font-size: 18px; }
+aside .spotlight p {
+  color: #808080;
+  font-size: 14px; }
+aside .challenge figure img {
+  height: 70px; }
+aside .challenge table {
   clear: both;
   font-weight: bold; }
-  aside .pro table tr.hot img {
+  aside .challenge table tr.hot img {
     border-color: red; }
-  aside .pro table tr.hot td + td {
+  aside .challenge table tr.hot td + td {
     color: red; }
-  aside .pro table tr.hot td.progress {
+  aside .challenge table tr.hot td.progress {
     color: #fff;
     background-color: #fbd0c1; }
-    aside .pro table tr.hot td.progress span {
+    aside .challenge table tr.hot td.progress span {
       background-color: #f12e0a; }
-  aside .pro table td {
+  aside .challenge table td {
     white-space: nowrap;
     padding: 5px; }
-    aside .pro table td img {
+    aside .challenge table td img {
       height: 24px;
       border: 1px solid #ccc; }
-    aside .pro table td.progress {
+    aside .challenge table td.progress {
       background-color: #ccc;
       color: white;
       width: 300px;
       background-clip: content-box; }
-      aside .pro table td.progress span {
+      aside .challenge table td.progress span {
         background-color: #999;
         padding: 3px;
         display: block;

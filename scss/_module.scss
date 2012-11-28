@@ -93,25 +93,46 @@
 	 }
 
 }
- aside .pro {
+ aside {
+	figure{
+	  padding: 10px 0;
+	  width: 100%;
+	  float: left;
+	  h2 {
+	    font-size: 1.6rem;
+	  	line-height: 1.6rem;
+	  	margin: 0;
+	  }
+	  p {
+	    margin: 0;
+	  	color: #808080;
+	  }
+	  img {
+		float: left;
+		margin-right: 10px;
+		border-radius: 3px;
+	  }
+	} 
+	.spotlight {
+		figure img {
+			width: 110px;
+			margin-right: 20px;
+		}
+		figure h2 {
+			font-size: 22px;
+		}
+		figure p {
+			font-size: 18px;
+		}
+		p {
+			color: #808080;
+			font-size: 14px;
+		}
+	}
+ 	.challenge {
 	 	figure{ 
-	 	  padding: 10px 0;
-	 	  width: 100%;
-	 	  float: left;
-	 	  h2 {
-	 	    font-size: 1.6rem;
-	 	  	line-height: 1.6rem;
-	 	  	margin: 0;
-	 	  }
-	 	  p {
-	 	    margin: 0;
-	 	  	color: #808080;
-	 	  }
 	 	  img {
-	 		float: left;
 	 		height: 70px;
-	 		margin-right: 10px;
-	 		border-radius: 3px;
 	 	  }
 	 	}
 	 	table {
@@ -148,6 +169,7 @@
 	 	  }
 	 	}
 	 }
+}
 /*   GENERIC CLASSES   */
 .avatar {
 	&.small {
