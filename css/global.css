@@ -335,8 +335,6 @@ header {
       position: relative; }
       #banner-footer li.active > div {
         visibility: hidden; }
-    #banner-footer li > div {
-      text-align: center; }
     #banner-footer li .info, #banner-footer li dd {
       font-size: 48px;
       color: #f7332c;
@@ -455,6 +453,12 @@ header {
   margin-bottom: 5px;
   color: #f7332c;
   font-weight: bold; }
+.module p.comment {
+  padding-left: 60px;
+  background: url(../img/comment.png) left center no-repeat transparent;
+  margin-left: 20px;
+  line-height: 30px;
+  color: #808080; }
 .module p a {
   color: #ffbe40;
   text-decoration: none; }
@@ -464,7 +468,7 @@ header {
     content: '';
     position: absolute;
     top: 40px;
-    bottom: 0;
+    bottom: 20px;
     left: 40px;
     right: 0;
     border: solid #ccc;

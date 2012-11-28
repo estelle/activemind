@@ -7,6 +7,13 @@
 	 color: #f7332c;
 	 font-weight: bold;
 	 }
+	 p.comment {
+	 	padding-left: 60px;
+	 	background: url(../img/comment.png) left center no-repeat transparent;
+	 	margin-left: 20px;
+	 	line-height: 30px;
+	 	color: #808080;
+	 }
 	 p a {
 	 	color: #ffbe40;
 	 	text-decoration: none;
@@ -18,7 +25,7 @@
 	 	content: '';
 	 	position: absolute;
 	 	top: 40px;
-	 	bottom: 0;
+	 	bottom: 20px;
 	 	left: 40px;
 	 	right: 0;
 	 	border: solid #ccc;
