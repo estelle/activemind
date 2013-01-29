@@ -141,7 +141,7 @@ body {
 
   nav li:last-child a {
     margin-right: 0; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 68px) {
   /* ====================
       WIDE: CSS3 Effects
      ==================== */
@@ -201,7 +201,7 @@ body {
   .main aside {
     float: right;
     width: 28%; } }
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width: 140px) {
   /* ===============
       Maximal Width
      =============== */
