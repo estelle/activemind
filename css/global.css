@@ -1,5 +1,10 @@
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+
+   Activemind / Game Your Game has not paid for the work done on this project. Until payment has been made, GameYourGame / Activemind has no right to use the content of this file or any work completed by unpaid contractors.
+
+
+
    ========================================================================== */
 html, button, input, select, textarea {
   color: #222; }
@@ -324,6 +329,7 @@ header {
     height: 120px;
     padding: 20px 20px 0;
     width: 120px;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     color: #898989;
     font-size: 14px;
